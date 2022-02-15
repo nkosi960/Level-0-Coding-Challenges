@@ -1,5 +1,5 @@
 function hello(stringArgument){
-    console.log(stringArgument);
+    console.log("Hello " + stringArgument + "!");
 };
 
-hello("The string");
+hello("world");

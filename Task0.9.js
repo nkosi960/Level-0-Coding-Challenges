@@ -1,5 +1,5 @@
-const vowels = ["a", "e", "i", "o", "u"];
 function vowelsFromString(text){
+    const vowels = ["a", "e", "i", "o", "u"];
     let vowelsFound = "";
     for (let vowel of text.toLowerCase()){
         if (vowels.includes(vowel) && !vowelsFound.includes(vowel)){

@@ -5,7 +5,6 @@ function similarChars(text1, text2){
             sameLetters += i + ",";
         }
     }
-    
     console.log("Common letters: " + sameLetters.substring(0, sameLetters.length - 1));
 }
 
