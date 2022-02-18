@@ -8,8 +8,8 @@ function numberToHoursAndMinutes(num){
         minutes = 60;
     }
     
-    const pluralSingularHours = hours > 1 ? " hours" : " hour";
-    const pluralSingularMinutes = minutes > 1 ? " minutes" : " minute";
+    const pluralSingularHours = hours === 1 ? " hour" : " hours";
+    const pluralSingularMinutes = minutes === 1 ? " minute" : " minutes";
     return hours + pluralSingularHours + ", " + minutes + pluralSingularMinutes;
 }
 
